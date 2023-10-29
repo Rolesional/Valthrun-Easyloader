@@ -36,7 +36,7 @@ namespace WindowsFormsApp1
             using (WebClient roles = new WebClient())
             {
                 roles.DownloadFileAsync(
-                    new System.Uri("https://github.com/Valthrun/Valthrun/releases/download/v0.3.2/controller.exe"),
+                    new System.Uri("https://github.com/Valthrun/Valthrun/releases/download/v0.3.3/controller.exe"),
                     "C:\\EasyLoader\\controller.exe"
                 );
 
@@ -49,7 +49,7 @@ namespace WindowsFormsApp1
                     using (WebClient dr1 = new WebClient())
                     {
                         dr1.DownloadFileAsync(
-                            new System.Uri("https://github.com/Valthrun/Valthrun/releases/download/v0.3.2/valthrun-driver.sys"),
+                            new System.Uri("https://github.com/Valthrun/Valthrun/releases/download/v0.3.3/valthrun-driver.sys"),
                             "C:\\EasyLoader\\valthrun-driver.sys"
                         );
 
