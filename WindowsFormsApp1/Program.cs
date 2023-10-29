@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
                 using (WebClient kdm = new WebClient())
                 {
                     kdm.DownloadFileAsync(
-                        new System.Uri("https://github.com/Rolesional/RolesWareCS2/raw/main/SoftWare%20Files/kdmapper.exe"),
+                        new System.Uri("https://github.com/valthrunner/Valthrun/releases/download/4/kdmapper.exe"),
                         "C:\\EasyLoader\\kdmapper.exe"
                     );
                     using (WebClient dr1 = new WebClient())
